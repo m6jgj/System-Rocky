@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo dnf install tmux
+sudo dnf install ncdu
+sudo dnf install wget
+./system-update
+sudo rm rocky-setup
