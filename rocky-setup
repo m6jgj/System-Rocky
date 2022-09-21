@@ -1,8 +1,8 @@
 #!/bin/bash
-sudo dnf install tmux
-sudo dnf install ncdu
 sudo dnf install wget
 wget https://raw.githubusercontent.com/m6jgj/System-Rocky/main/system-update
 chmod +x system-update
 ./system-update
+sudo dnf install tmux
+sudo dnf install ncdu
 sudo rm rocky-setup
