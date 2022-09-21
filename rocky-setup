@@ -3,7 +3,8 @@ sudo dnf -y install tmux
 sudo dnf -y install wget
 wget https://raw.githubusercontent.com/m6jgj/System-Rocky/main/system-update
 chmod +x system-update
-./system-update
+sudo mv system-update /usr/bin/system-update
+system-update
 sudo dnf -y install epel-release
 sudo dnf makecache
 sudo dnf -y install htop
