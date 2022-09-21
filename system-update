@@ -1,5 +1,4 @@
 #!/bin/bash
 sudo dnf update
 sudo dnf upgrade -y
-sudo dnf autoclean -y
 sudo dnf autoremove -y
