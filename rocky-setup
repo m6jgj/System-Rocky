@@ -9,4 +9,6 @@ sudo dnf -y install epel-release
 sudo dnf makecache
 sudo dnf -y install htop
 sudo dnf -y install ncdu
+sudo timedatectl set-timezone Europe/London
+timedatectl
 sudo rm rocky-setup
